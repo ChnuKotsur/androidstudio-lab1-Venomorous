@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Lab 1</string>
+    <string name="st_martin_hymn_1">Trouvez-moi une perle si chère, comme l\'île Saint-Martin en mer, chaîne de mornes et vallées; riche de plages bien dorées qui donne la paix, donne le repos dans ses mornes et toutes ses eaux.\n\nSaint-Martin, Saint-Martin, Si jolie en tous ses coins!</string>
+    <string name="st_martin_chorus"></string>
+    <string name="island_name">Saint Martin</string>
+    <string name="flag_of_saint_martin_description">Flag of Saint Martin</string>
+    <string name="hymn_of_saint_martin">Hymn of Saint Martin</string>
 </resources>
