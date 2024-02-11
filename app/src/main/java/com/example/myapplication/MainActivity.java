@@ -3,10 +3,8 @@ package com.example.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import android.graphics.drawable.GradientDrawable;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,28 +13,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        LinearLayout linearLayout = findViewById(R.id.main_layout);
+        ConstraintLayout constraintLayout = findViewById(R.id.main_layout);
 
         // Create a GradientDrawable with the desired colors and positions
         GradientDrawable gradientDrawable = new GradientDrawable(
-                GradientDrawable.Orientation.TOP_BOTTOM,
+                GradientDrawable.Orientation.BOTTOM_TOP,
                 new int[]{
                         0xFF0F0A6A,
-                        0xFF2C0E5D,
-                        0xFF440E5D,
-                        0xFF39104C,
-                        0xFF591542,
-                        0xFF71183E,
-                        0xFF8A1B34,
-                        0xFF97212D,
-                        0xFFB42121,
-                        0xFFB42121,
-                        0xFFB93131,
-                        0xFFC04747,
-                        0xFFCC6F6F,
+                        0xFF51194C,
+                        0xFFA72D2D,
+                        0xFFCA8080,
                         0xFFFFFFFF
                 });
 
-        linearLayout.setBackground(gradientDrawable);
+        constraintLayout.setBackground(gradientDrawable);
     }
 }

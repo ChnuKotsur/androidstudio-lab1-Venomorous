@@ -14,6 +14,7 @@
         android:gravity="center"
         android:text="@string/island_name"
         android:textSize="40sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -49,6 +50,7 @@
 
     <ImageView
         android:id="@+id/imageView"
+        android:contentDescription="@string/flag_of_saint_martin_description"
         android:layout_width="391dp"
         android:layout_height="217dp"
         android:layout_marginStart="16dp"
