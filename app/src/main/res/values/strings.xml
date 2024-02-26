@@ -1,8 +1,27 @@
 <resources>
     <string name="app_name">Lab 1</string>
-    <string name="st_martin_hymn_1">Trouvez-moi une perle si chère, comme l\'île Saint-Martin en mer, chaîne de mornes et vallées; riche de plages bien dorées qui donne la paix, donne le repos dans ses mornes et toutes ses eaux.\n\nSaint-Martin, Saint-Martin, Si jolie en tous ses coins!</string>
-    <string name="st_martin_chorus"></string>
-    <string name="island_name">Saint Martin</string>
-    <string name="flag_of_saint_martin_description">Flag of Saint Martin</string>
+    <string name="saint_martin">Saint Martin</string>
     <string name="hymn_of_saint_martin">Hymn of Saint Martin</string>
+    <string name="st_martin_hymn">Trouvez-moi une perle si chère, comme l\'île Saint-Martin en mer, chaîne de mornes et vallées; riche de plages bien dorées qui donne la paix, donne le repos dans ses mornes et toutes ses eaux.\n\nSaint-Martin, Saint-Martin, Si jolie en tous ses coins!</string>
+    <string name="flag_of_saint_martin_description">Flag of Saint Martin</string>
+    <!--  MONGOLIA  -->
+    <string name="mongolia">Mongolia</string>
+    <string name="hymn_of_mongolia">Hymn of Mongolia</string>
+    <string name="mongolia_hymn">Дархан манай тусгаар улс\nДаяар монголын ариун голомт\nДалай их дээдсийн гэгээн үйлс\nДандаа энхжиж,[d] үүрд мөнхжинө.</string>
+    <string name="flag_of_mongolia_description">Flag of Mongolia</string>
+    <!--  Estonian Navy  -->
+    <string name="estonian_navy">Estonian Navy</string>
+    <string name="hymn_of_estonian_navy">Hymn of Estonian Navy</string>
+    <string name="estonian_navy_hymn">Mu isamaa, mu õnn ja rõõm,\nkui kaunis oled sa!\nEi leia mina iial teal\nsee suure, laia ilma peal,\nmis mul nii armas oleks ka,\nkui sa, mu isamaa!</string>
+    <string name="estonian_jack_description">Flag of Estonian Navy</string>
+    <!--  Seychelles  -->
+    <string name="seychelles">Seychelles</string>
+    <string name="hymn_of_seychelles">Hymn of Seychelles</string>
+    <string name="seychelles_hymn">Sesel ou menm nou sel patri.\nKot nou viv dan larmoni.\nLazwa, lanmour ek lape.\nNou remersye Bondye.</string>
+    <string name="flag_of_seychelles_description">Flag of Seychelles</string>
+    <!--  Switzerland  -->
+    <string name="switzerland">Switzerland</string>
+    <string name="hymn_of_switzerland">Hymn of Switzerland</string>
+    <string name="switzerland_hymn">Trittst im Morgenrot daher,\nSeh’ ich dich im Strahlenmeer,\nDich, du Hocherhabener, Herrlicher!\nWenn der Alpenfirn sich rötet,\nBetet, freie Schweizer, betet,\nEure fromme Seele ahnt...\nEure fromme Seele ahnt...\nGott im hehren Vaterland!\nGott, den Herrn im hehren Vaterland!</string>
+    <string name="flag_of_switzerland_description">Flag of Switzerland</string>
 </resources>
