@@ -11,15 +11,29 @@
 
     <TextView
         android:id="@+id/receiveTextView"
-        android:layout_width="391dp"
-        android:layout_height="578dp"
-        android:layout_marginTop="132dp"
-        android:text="Hello"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5"
+        android:layout_width="393dp"
+        android:layout_height="310dp"
+        android:layout_marginTop="336dp"
         android:gravity="center"
-        android:textAlignment="center"/>
+        android:text=""
+        android:textSize="20sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/receiveHymnTextView"
+        android:layout_width="394dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginBottom="574dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

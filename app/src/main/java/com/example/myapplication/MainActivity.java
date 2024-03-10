@@ -102,7 +102,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onSendMessage(View view) {
+        String selectedHymn = hymnTextView.getText().toString();
+        String hymnText = hymnTextTextView.getText().toString();
+
         Intent intent = new Intent(this, ReceiveMessageActivity.class);
+        intent.putExtra("selectedHymn", selectedHymn);
+        intent.putExtra("selectedHymnText", hymnText);
         startActivity(intent);
     }
 }
