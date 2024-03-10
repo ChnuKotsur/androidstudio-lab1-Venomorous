@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.ContextCompat;
@@ -10,6 +11,7 @@ import android.graphics.drawable.GradientDrawable;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -32,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Button sendToSecondActivityButton = findViewById(R.id.send_to_second_activity_button);
+        Button shareButton = findViewById(R.id.share_button);
 
         countryNameTextView = findViewById(R.id.countryNameTextView);
         hymnTextTextView = findViewById(R.id.hymnTextTextView); //Text of the hymn
@@ -95,5 +99,10 @@ public class MainActivity extends AppCompatActivity {
                 constraintLayout.setBackgroundResource(R.drawable.gradient_switzerland);
                 break;
         }
+    }
+
+    public void onSendMessage(View view) {
+        Intent intent = new Intent(this, ReceiveMessageActivity.class);
+        startActivity(intent);
     }
 }

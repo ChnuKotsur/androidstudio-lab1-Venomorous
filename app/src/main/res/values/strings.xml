@@ -24,4 +24,9 @@
     <string name="hymn_of_switzerland">Hymn of Switzerland</string>
     <string name="switzerland_hymn">Trittst im Morgenrot daher,\nSeh’ ich dich im Strahlenmeer,\nDich, du Hocherhabener, Herrlicher!\nWenn der Alpenfirn sich rötet,\nBetet, freie Schweizer, betet,\nEure fromme Seele ahnt...\nEure fromme Seele ahnt...\nGott im hehren Vaterland!\nGott, den Herrn im hehren Vaterland!</string>
     <string name="flag_of_switzerland_description">Flag of Switzerland</string>
+    <string name="title_activity_receive_message">ReceiveMessageActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="share">Share</string>
+    <string name="send_to_second_activity">Send to second activity</string>
+    <string name="enter_your_text_here">Enter your text here</string>
 </resources>
