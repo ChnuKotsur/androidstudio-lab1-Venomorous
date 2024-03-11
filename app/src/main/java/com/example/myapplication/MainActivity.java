@@ -110,4 +110,14 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("selectedHymnText", hymnText);
         startActivity(intent);
     }
+
+    public void onSendMessageOtherApps(View view) {
+        String selectedHymn = hymnTextView.getText().toString();
+        String hymnText = hymnTextTextView.getText().toString();
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_SEND);
+        intent.putExtra(Intent.EXTRA_TEXT, selectedHymn + "\n\n" + hymnText);
+        intent.setType("text/plain");
+        startActivity(intent);
+    }
 }
